@@ -1,10 +1,10 @@
 {
   "name": "mmm-easypix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module for MagicMirror² to display pictures.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mykle1/MMM-EasyPix"
+    "url": "https://github.com/KristjanESPERANTO/MMM-EasyPix"
   },
   "keywords": [
     "magic mirror",
@@ -18,13 +18,13 @@
     "url": "https://github.com/mykle1"
   },
   "contributors": [
-    "https://github.com/mykle1/MMM-EasyPix/contributors"
+    "https://github.com/KristjanESPERANTO/MMM-EasyPix/contributors"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mykle1/MMM-EasyPix/issues"
+    "url": "https://github.com/KristjanESPERANTO/MMM-EasyPix/issues"
   },
-  "homepage": "https://github.com/mykle1/MMM-EasyPix#readme",
+  "homepage": "https://github.com/KristjanESPERANTO/MMM-EasyPix#readme",
   "devDependencies": {
     "eslint": "^8.55.0",
     "eslint-config-airbnb-base": "^15.0.0",

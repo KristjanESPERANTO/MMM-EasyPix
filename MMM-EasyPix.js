@@ -3,6 +3,8 @@
  * Module: MMM-EasyPix
  *
  * By Mykle1
+ * Updated by KristjanESPERANTO
+ *
  * MIT Licensed.
  */
 Module.register("MMM-EasyPix", {
