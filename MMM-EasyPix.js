@@ -1,5 +1,7 @@
 /* global Module */
-/* MagicMirror²
+
+/*
+ * MagicMirror²
  * Module: MMM-EasyPix
  *
  * By Mykle1
@@ -16,7 +18,7 @@ Module.register("MMM-EasyPix", {
     animationSpeed: 3000 // Speed of the update animation. (Milliseconds)
   },
 
-  start() {
+  start () {
     const self = this;
     this.url = "";
 
@@ -26,12 +28,12 @@ Module.register("MMM-EasyPix", {
     }, this.config.updateInterval);
   },
 
-  getStyles() {
+  getStyles () {
     return ["MMM-EasyPix.css"];
   },
 
   // Override dom generator.
-  getDom() {
+  getDom () {
     const wrapper = document.createElement("div");
     const image = document.createElement("img");
     image.src = `/modules/MMM-EasyPix/pix/${
@@ -43,7 +45,7 @@ Module.register("MMM-EasyPix", {
     return wrapper;
   },
 
-  random_imglink() {
+  randomImgLink () {
     const myimages = "/modules/MMM-EasyPix/pix/";
 
     let ry = Math.floor(Math.random() * "/modules/MMM-EasyPix/pix/".length);
@@ -53,11 +55,11 @@ Module.register("MMM-EasyPix", {
     document.write(`<img src="${myimages[ry]}" border=0>`);
   },
 
-  /// //  Add this function to the modules you want to control with voice //////
-  /// //  Must be the same as in "sentences" array in MMM-voice.js /////
-  /// //  Replace audio file with your own greeting /////
+  // //  Add this function to the modules you want to control with voice //////
+  // //  Must be the same as in "sentences" array in MMM-voice.js /////
+  // //  Replace audio file with your own greeting /////
 
-  notificationReceived(notification) {
+  notificationReceived (notification) {
     if (notification === "HIDE_LUCY") {
       this.hide(500);
     } else if (notification === "SHOW_LUCY") {
@@ -69,8 +71,8 @@ Module.register("MMM-EasyPix", {
       sound.src = "modules/MMM-EasyPix/hello.mp3";
       sound.play();
     }
-    /// ////// So you don't hear the same greeting every time /////////////////////////
-    /// /////// Randomized sound files courtesy of @ Cowboysdude ////////////////////////
+    // ////// So you don't hear the same greeting every time /////////////////////////
+    // /////// Randomized sound files courtesy of @ Cowboysdude ////////////////////////
     if (notification === "SHOW_LUCY") {
       const audioFiles = this.config.sounds;
       const randomFile =

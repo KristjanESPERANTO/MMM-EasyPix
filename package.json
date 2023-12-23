@@ -1,15 +1,13 @@
 {
   "name": "mmm-easypix",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module for MagicMirror² to display pictures.",
   "repository": {
     "type": "git",
     "url": "https://github.com/KristjanESPERANTO/MMM-EasyPix"
   },
   "keywords": [
-    "magic mirror",
-    "magic mirror 2",
-    "smart mirror",
+    "magicmirror",
     "picture",
     "module"
   ],
@@ -26,23 +24,21 @@
   },
   "homepage": "https://github.com/KristjanESPERANTO/MMM-EasyPix#readme",
   "devDependencies": {
-    "eslint": "^8.55.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.29.0",
-    "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-markdownlint": "^0.5.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "lint-staged": "^15.1.0",
-    "markdownlint": "^0.32.1",
-    "prettier": "^3.1.0",
-    "stylelint": "^15.11.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-prettier": "^4.1.0"
+    "@eslint/js": "^8.56.0",
+    "@stylistic/eslint-plugin": "latest",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "latest",
+    "globals": "latest",
+    "lint-staged": "latest",
+    "markdownlint-cli": "latest",
+    "prettier": "^3.1.1",
+    "stylelint": "latest",
+    "stylelint-config-standard": "latest",
+    "stylelint-prettier": "latest"
   },
   "scripts": {
-    "lint": "eslint . && stylelint **/*.css && prettier --check .",
-    "lint:fix": "eslint --fix . && stylelint --fix **/*.css && prettier --write .",
+    "lint": "eslint . && stylelint **/*.css && markdownlint . --ignore node_modules && prettier --check .",
+    "lint:fix": "eslint . --fix && stylelint **/*.css --fix && markdownlint . --ignore node_modules --fix && prettier --write .",
     "test": "npm run lint"
   }
 }
