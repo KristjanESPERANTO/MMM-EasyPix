@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/KristjanESPERANTO/MMM-EasyPix#readme",
   "devDependencies": {
-    "@eslint/js": "^8.56.0",
+    "@eslint/js": "latest",
     "@stylistic/eslint-plugin": "latest",
     "eslint": "^8.56.0",
     "eslint-plugin-import": "latest",
