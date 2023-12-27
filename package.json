@@ -27,7 +27,6 @@
     "@eslint/js": "latest",
     "@stylistic/eslint-plugin": "latest",
     "eslint": "^8.56.0",
-    "eslint-plugin-import": "latest",
     "globals": "latest",
     "lint-staged": "latest",
     "markdownlint-cli": "latest",

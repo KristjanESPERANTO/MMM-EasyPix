@@ -1,6 +1,5 @@
 const globals = require("globals");
 const {configs: eslintConfigs} = require("@eslint/js");
-const eslintPluginImport = require("eslint-plugin-import");
 const eslintPluginStylistic = require("@stylistic/eslint-plugin");
 
 const config = [
@@ -13,12 +12,10 @@ const config = [
       }
     },
     plugins: {
-      ...eslintPluginStylistic.configs["all-flat"].plugins,
-      import: eslintPluginImport
+      ...eslintPluginStylistic.configs["all-flat"].plugins
     },
     rules: {
       ...eslintConfigs.all.rules,
-      ...eslintPluginImport.configs.recommended.rules,
       ...eslintPluginStylistic.configs["all-flat"].rules,
       "capitalized-comments": "off",
       "consistent-this": "off",
