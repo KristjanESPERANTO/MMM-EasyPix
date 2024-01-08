@@ -36,9 +36,7 @@ Module.register("MMM-EasyPix", {
   getDom () {
     const wrapper = document.createElement("div");
     const image = document.createElement("img");
-    image.src = `/modules/MMM-EasyPix/pix/${
-      this.config.picName
-    }?seed=${new Date()}`;
+    image.src = `/modules/MMM-EasyPix/pix/${this.config.picName}`;
     image.className = "mmm-easypix-photo";
     image.style.maxWidth = this.config.maxWidth;
     wrapper.appendChild(image);
