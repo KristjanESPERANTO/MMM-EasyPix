@@ -1,1 +1,12 @@
 node_modules
+package-lock.json
+pix/*.*
+!pix/earth.gif
+!pix/forest.jpg
+!pix/lunar-eclipse.jpg
+!pix/moon.gif
+!pix/plant.jpg
+!pix/solar-eclipse.jpg
+!pix/standing-on-hill.jpg
+!pix/tropical-beach.gif
+!pix/world-peace.jpg

@@ -12,7 +12,7 @@
 Module.register("MMM-EasyPix", {
   defaults: {
     picName: "face.gif", // .jpg, .gif, .png, etc. (animated gif's too!)
-    maxWidth: "100%", // your picture files go in "pix" folder of module
+    maxWidth: "100%",
     sounds: ["1.mp3", "me2.mp3"], // mp3 audio file names in quotes seperated by commas
     updateInterval: 30 * 60 * 1000, //  Updates display (Milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
     animationSpeed: 3000 // Speed of the update animation. (Milliseconds)
