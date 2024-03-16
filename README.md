@@ -12,10 +12,14 @@ Your picture files go in the "pix" folder inside the MMM-EasyPix module folder.
 
 ## Installation
 
-- `git clone https://github.com/KristjanESPERANTO/MMM-EasyPix` into the `~/MagicMirror/modules` directory.
-- Annotated .css file included for exact positioning.
+Clone this module into your MagicMirror² modules folder:
 
-## config.js entry and options
+```bash
+cd ~/MagicMirror/modules
+git clone https://github.com/KristjanESPERANTO/MMM-EasyPix
+```
+
+## Configuration
 
 ```js
   {
@@ -29,6 +33,15 @@ Your picture files go in the "pix" folder inside the MMM-EasyPix module folder.
       animationSpeed: 3000,           // Speed of the update animation. (Milliseconds)
       }
     },
+```
+
+## Update
+
+Go to the module’s directory and pull the latest version from GitHub:
+
+```bash
+cd ~/MagicMirror/modules/MMM-EasyPix
+git pull
 ```
 
 ## How to use it multiple times
