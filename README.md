@@ -28,7 +28,7 @@ git clone https://github.com/KristjanESPERANTO/MMM-EasyPix
     config: {
       picName: "moon.gif",            // Enter the picture file name.
       maxWidth: "75%",                // Size picture precisely. Retains aspect ratio.
-      sounds: ["1.mp3", "me2.mp3"],   // mp3 audio file names in quotes seperated by commas for Hello-Lucy
+      sounds: ["1.mp3", "me2.mp3"],   // mp3 audio file names in quotes separated by commas for Hello-Lucy
       updateInterval: 30 * 60 * 1000, // Updates display (Milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
       animationSpeed: 3000,           // Speed of the update animation. (Milliseconds)
       }
@@ -54,17 +54,17 @@ This module works also with [Hello-Lucy](https://github.com/mykle1/Hello-Lucy) v
 
 ## Example images
 
-| name                                             | source                                                                                                     | creator        | licence                                                                 |
+| name                                             | source                                                                                                     | creator        | license                                                                 |
 | ------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- | -------------- | ----------------------------------------------------------------------- |
 | [earth.gif](pix/earth.gif)                       | [pixabay](https://pixabay.com/gifs/earth-world-planet-space-rotation-4590/)                                | placidplace    | [Pixabay Content License](https://pixabay.com/service/license-summary/) |
-| [forest.jpg](pix/forest.jpg)                     | [unsplash](https://unsplash.com/photos/silhouette-of-forest-during-nighttime-g9qwoPiS0nY)                  | bekmanis       | [Unsplash Licence](https://unsplash.com/license)                        |
-| [lunar-eclipse.jpg](pix/lunar-eclipse.jpg)       | [unsplash](https://unsplash.com/photos/timelapse-photo-of-total-lunar-eclipse-0hgiQQEi4ic)                 | jakehills      | [Unsplash Licence](https://unsplash.com/license)                        |
+| [forest.jpg](pix/forest.jpg)                     | [unsplash](https://unsplash.com/photos/silhouette-of-forest-during-nighttime-g9qwoPiS0nY)                  | bekmanis       | [Unsplash License](https://unsplash.com/license)                        |
+| [lunar-eclipse.jpg](pix/lunar-eclipse.jpg)       | [unsplash](https://unsplash.com/photos/timelapse-photo-of-total-lunar-eclipse-0hgiQQEi4ic)                 | jakehills      | [Unsplash License](https://unsplash.com/license)                        |
 | [moon.gif](pix/moon.gif)                         | [pixabay](https://pixabay.com/gifs/moon-space-rotation-star-earth-4589/)                                   | placidplace    | [Pixabay Content License](https://pixabay.com/service/license-summary/) |
-| [plant.jpg](pix/plant.jpg)                       | [unsplash](https://unsplash.com/photos/green-plant-in-clear-glass-vase-Faf6gzEI3Do)                        | alexkondratiev | [Unsplash Licence](https://unsplash.com/license)                        |
-| [solar-eclipse.jpg](pix/solar-eclipse.jpg)       | [unsplash](https://unsplash.com/photos/solar-eclipse-VIcTzkzNZR8)                                          | jordonsconner  | [Unsplash Licence](https://unsplash.com/license)                        |
-| [standing-on-hill.jpg](pix/standing-on-hill.jpg) | [unsplash](https://unsplash.com/photos/silhouette-of-man-standing-on-hill-during-starry-night-C6duwascOEA) | joshuaearle    | [Unsplash Licence](https://unsplash.com/license)                        |
+| [plant.jpg](pix/plant.jpg)                       | [unsplash](https://unsplash.com/photos/green-plant-in-clear-glass-vase-Faf6gzEI3Do)                        | alexkondratiev | [Unsplash License](https://unsplash.com/license)                        |
+| [solar-eclipse.jpg](pix/solar-eclipse.jpg)       | [unsplash](https://unsplash.com/photos/solar-eclipse-VIcTzkzNZR8)                                          | jordonsconner  | [Unsplash License](https://unsplash.com/license)                        |
+| [standing-on-hill.jpg](pix/standing-on-hill.jpg) | [unsplash](https://unsplash.com/photos/silhouette-of-man-standing-on-hill-during-starry-night-C6duwascOEA) | joshuaearle    | [Unsplash License](https://unsplash.com/license)                        |
 | [tropical-beach.gif](pix/tropical-beach.gif)     | [pixabay](https://pixabay.com/gifs/tropical-beach-nature-cinemagraph-10201/)                               | MXJfiles       | [Pixabay Content License](https://pixabay.com/service/license-summary/) |
-| [world-peace.jpg](pix/world-peace.jpg)           | [unsplash](https://unsplash.com/photos/world-peace-text-printed-on-wall-L4jb3ubqsmM)                       | good_citizen   | [Unsplash Licence](https://unsplash.com/license)                        |
+| [world-peace.jpg](pix/world-peace.jpg)           | [unsplash](https://unsplash.com/photos/world-peace-text-printed-on-wall-L4jb3ubqsmM)                       | good_citizen   | [Unsplash License](https://unsplash.com/license)                        |
 
 ## Project status
 

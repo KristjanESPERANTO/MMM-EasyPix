@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "alexkondratiev",
+    "bekmanis",
+    "easypix",
+    "jakehills",
+    "Jfiles",
+    "jordonsconner",
+    "joshuaearle",
+    "Kristjan",
+    "Mykle",
+    "Pixabay",
+    "placidplace"
+  ],
+  "ignorePaths": ["node_modules/**"],
+  "dictionaries": ["node"]
+}
