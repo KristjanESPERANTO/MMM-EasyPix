@@ -26,7 +26,7 @@ git clone https://github.com/KristjanESPERANTO/MMM-EasyPix
     module: "MMM-EasyPix",
     position: "top_center",
     config: {
-      picName: "moon.gif",            // Enter the picture file name.
+      picName: "moon.gif",            // Enter the picture file name. You can even use a direct internet URL to an image.
       maxWidth: "75%",                // Size picture precisely. Retains aspect ratio.
       sounds: ["1.mp3", "me2.mp3"],   // mp3 audio file names in quotes separated by commas for Hello-Lucy
       updateInterval: 30 * 60 * 1000, // Updates display (Milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
