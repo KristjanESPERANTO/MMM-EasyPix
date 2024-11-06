@@ -1,6 +1,6 @@
 # MMM-EasyPix
 
-The easiest way to show pictures on your [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror).
+**MMM-EasyPix** is a module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror). It's the easiest way to show pictures on your screen.
 
 Supported file formats: JPG, PNG, SVG and GIF (even animated GIFs).
 
