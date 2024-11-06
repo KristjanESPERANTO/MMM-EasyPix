@@ -1,5 +1,4 @@
-The MIT License (MIT)
-=====================
+# The MIT License (MIT)
 
 Copyright © 2017-2019 Mykle
 Copyright © 2023-2024 Kristjan ESPERANTO
