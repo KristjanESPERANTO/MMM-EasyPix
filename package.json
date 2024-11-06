@@ -1,18 +1,19 @@
 {
   "name": "mmm-easypix",
   "version": "1.1.0",
+  "type": "module",
   "description": "A module for MagicMirror² to display pictures.",
-  "repository": "KristjanESPERANTO/MMM-EasyPix",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristjanESPERANTO/MMM-EasyPix.git"
+  },
   "keywords": [
     "MagicMirror",
     "images",
     "photos",
     "pictures"
   ],
-  "author": {
-    "name": "mykle1",
-    "url": "https://github.com/mykle1"
-  },
+  "author": "mykle1 (https://github.com/mykle1)",
   "contributors": [
     "https://github.com/KristjanESPERANTO/MMM-EasyPix/contributors"
   ],
@@ -21,6 +22,7 @@
     "url": "https://github.com/KristjanESPERANTO/MMM-EasyPix/issues"
   },
   "homepage": "https://github.com/KristjanESPERANTO/MMM-EasyPix#readme",
+  "main": "MMM-EasyPix.js",
   "devDependencies": {
     "@eslint/js": "^9.14.0",
     "@stylistic/eslint-plugin": "^2.10.1",

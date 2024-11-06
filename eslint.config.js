@@ -7,18 +7,18 @@ const config = [
   eslintPluginImport.flatConfigs.recommended,
   eslintPluginJs.configs.all,
   {
-    "files": ["**/*.js"],
-    "languageOptions": {
-      "globals": {
+    files: ["**/*.js"],
+    languageOptions: {
+      globals: {
         ...globals.browser,
         ...globals.node
       },
-      "sourceType": "commonjs"
+      sourceType: "module"
     },
-    "plugins": {
+    plugins: {
       ...eslintPluginStylistic.configs["all-flat"].plugins
     },
-    "rules": {
+    rules: {
       ...eslintPluginStylistic.configs["all-flat"].rules,
       "@stylistic/array-element-newline": ["error", "consistent"],
       "@stylistic/dot-location": ["error", "property"],
@@ -39,31 +39,7 @@ const config = [
       "no-undef": "warn",
       "one-var": "off",
       "sort-keys": "off",
-      "strict": "off"
-    }
-  },
-  {
-    "files": ["**/*.mjs"],
-    "languageOptions": {
-      "ecmaVersion": "latest",
-      "globals": {
-        ...globals.node
-      },
-      "sourceType": "module"
-    },
-    "plugins": {
-      ...eslintPluginStylistic.configs["all-flat"].plugins
-    },
-    "rules": {
-      ...eslintPluginStylistic.configs["all-flat"].rules,
-      "@stylistic/array-element-newline": "off",
-      "@stylistic/indent": ["error", 2],
-      "@stylistic/padded-blocks": ["error", "never"],
-      "func-style": "off",
-      "max-lines-per-function": ["error", 100],
-      "no-magic-numbers": "off",
-      "one-var": "off",
-      "prefer-destructuring": "off"
+      strict: "off"
     }
   }
 ];
