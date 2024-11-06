@@ -2,13 +2,21 @@
   "name": "mmm-easypix",
   "version": "1.1.0",
   "description": "A module for MagicMirror² to display pictures.",
-  "repository": "KristjanESPERANTO/MMM-EasyPix",
   "keywords": [
     "MagicMirror",
     "images",
     "photos",
     "pictures"
   ],
+  "homepage": "https://github.com/KristjanESPERANTO/MMM-EasyPix#readme",
+  "bugs": {
+    "url": "https://github.com/KristjanESPERANTO/MMM-EasyPix/issues"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/KristjanESPERANTO/MMM-EasyPix"
+},
+  "license": "MIT",
   "author": {
     "name": "mykle1",
     "url": "https://github.com/mykle1"
@@ -16,11 +24,14 @@
   "contributors": [
     "https://github.com/KristjanESPERANTO/MMM-EasyPix/contributors"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/KristjanESPERANTO/MMM-EasyPix/issues"
+  "main": "MMM-EasyPix.js",
+  "scripts": {
+    "lint": "eslint . && stylelint **/*.css && markdownlint . --ignore node_modules && prettier --check .",
+    "lint:fix": "eslint . --fix && stylelint **/*.css --fix && markdownlint . --ignore node_modules --fix && prettier --write .",
+    "release": "npx bumpp --no-push",
+    "test": "npm run lint && npm run test:spelling",
+    "test:spelling": "cspell ."
   },
-  "homepage": "https://github.com/KristjanESPERANTO/MMM-EasyPix#readme",
   "devDependencies": {
     "@eslint/js": "^9.16.0",
     "@stylistic/eslint-plugin": "^2.12.0",
@@ -34,12 +45,5 @@
     "stylelint": "^16.11.0",
     "stylelint-config-standard": "^36.0.1",
     "stylelint-prettier": "^5.0.2"
-  },
-  "scripts": {
-    "lint": "eslint . && stylelint **/*.css && markdownlint . --ignore node_modules && prettier --check .",
-    "lint:fix": "eslint . --fix && stylelint **/*.css --fix && markdownlint . --ignore node_modules --fix && prettier --write .",
-    "release": "npx bumpp --no-push",
-    "test": "npm run lint && npm run test:spelling",
-    "test:spelling": "cspell ."
   }
 }
