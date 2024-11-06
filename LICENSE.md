@@ -1,7 +1,7 @@
 # The MIT License (MIT)
 
-Copyright © 2017-2019 Mykle
-Copyright © 2023-2024 Kristjan ESPERANTO
+- Copyright © 2017-2019 Mykle
+- Copyright © 2023-2024 Kristjan ESPERANTO
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
