@@ -70,6 +70,8 @@ This module works also with [Hello-Lucy](https://github.com/mykle1/Hello-Lucy) v
 
 Since the original author of the module, [mykle1](https://github.com/mykle1), is no longer active, I forked the module. I fixed a few issues and will try to keep the module working in the future.
 
+**This module is in maintenance mode.**
+
 ## Contributing
 
 If you find any problems, bugs or have questions, please [open a GitHub issue](https://github.com/KristjanESPERANTO/MMM-EasyPix/issues) in this repository.
