@@ -69,3 +69,21 @@ This module works also with [Hello-Lucy](https://github.com/mykle1/Hello-Lucy) v
 ## Project status
 
 Since the original author of the module, [mykle1](https://github.com/mykle1), is no longer active, I forked the module. I fixed a few issues and will try to keep the module working in the future.
+
+## Contributing
+
+If you find any problems, bugs or have questions, please [open a GitHub issue](https://github.com/KristjanESPERANTO/MMM-EasyPix/issues) in this repository.
+
+Pull requests are of course also very welcome 🙂
+
+### Code of Conduct
+
+Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+### Developer commands
+
+- `npm run lint` - Run linting and formatter checks.
+- `npm run lint:fix` - Fix linting and formatter issues.
+- `npm run release` - Bump version for release.
+- `npm run test` - Run linting and formatter checks + run spelling check.
+- `npm run test:spelling` - Run spelling check.
