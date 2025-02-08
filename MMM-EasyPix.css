@@ -11,5 +11,5 @@
   margin-left: -1px; /* Move your picture using these */
   margin-top: -1px; /* Move your picture using these */
   margin-bottom: -1px; /* Move your picture using these */
-  float: center; /* Left, center or right */
+  float: none; /* left, right or none (to center) */
 }
