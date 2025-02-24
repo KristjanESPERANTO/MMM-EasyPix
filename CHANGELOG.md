@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.4] - 2025-02-24 - Maintenance update
+
+- chore: Update devDependencies
+- chore: Simplify ESLint calls
+- chore: Replace `eslint-plugin-import` by `eslint-plugin-import-x`
+- chore: Replace deprecated `all-flat` by `all` stylistic config
+- chore: Remove release script
+- chore: Install husky
+
 ## [1.1.3] - 2025-02-08
 
 - Fix: Use valid property for float
@@ -27,6 +36,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 First fork version 🚀
 
+[1.1.4]: https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.3...v1.1.4
+[1.1.3]: https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.2...v1.1.3
 [1.1.2]: https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.0.2...v1.1.0
