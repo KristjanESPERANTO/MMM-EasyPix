@@ -25,7 +25,6 @@ const config = [
       "@stylistic/padded-blocks": ["error", "never"],
       "@stylistic/quote-props": ["error", "as-needed"],
       "capitalized-comments": "off",
-      "consistent-this": "off",
       "line-comment-position": "off",
       "max-lines-per-function": ["error", 100],
       "max-statements": ["error", 25],
@@ -33,7 +32,6 @@ const config = [
       "no-await-in-loop": "off",
       "no-inline-comments": "off",
       "no-magic-numbers": "off",
-      "no-undef": "warn",
       "one-var": "off",
       "sort-keys": "off",
       "strict": "off"
@@ -49,14 +47,9 @@ const config = [
       "sourceType": "module"
     },
     "rules": {
-      "@stylistic/array-element-newline": "off",
+      "@stylistic/array-element-newline": ["error", "consistent"],
       "@stylistic/indent": ["error", 2],
-      "@stylistic/padded-blocks": ["error", "never"],
-      "func-style": "off",
-      "max-lines-per-function": ["error", 100],
-      "no-magic-numbers": "off",
-      "one-var": "off",
-      "prefer-destructuring": "off"
+      "no-magic-numbers": ["error", {"ignore": [2, 25, 100]}]
     }
   }
 ];
