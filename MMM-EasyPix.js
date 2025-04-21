@@ -10,11 +10,11 @@ Module.register("MMM-EasyPix", {
   },
 
   start () {
-    const self = this;
+    const that = this;
     this.url = "";
 
     setInterval(() => {
-      self.updateDom(self.config.animationSpeed || 0); // use config.animationSpeed or revert to zero
+      that.updateDom(that.config.animationSpeed || 0); // use config.animationSpeed or revert to zero
     }, this.config.updateInterval);
   },
 
