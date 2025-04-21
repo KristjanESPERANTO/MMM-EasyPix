@@ -4,7 +4,19 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.5] - 2025-03-17 - Maintenance update
+## [1.1.6](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.5...v1.1.6) - 2025-04-21 - Maintenance update
+
+### Changed
+
+- chore: update devDependencies
+- chore: update ESLint configuration to use new import plugin structure
+- chore: clean up ESLint rules by removing unnecessary settings and improving consistency
+- docs: add npm install command to developer commands section
+- refactor: replace 'self' with 'that' for consistency in context binding
+
+## [1.1.5](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.4...v1.1.5) - 2025-03-17 - Maintenance update
+
+### Changed
 
 - chore: Update devDependencies
 - chore: Simplify stylelint configuration
