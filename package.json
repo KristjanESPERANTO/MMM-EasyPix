@@ -37,12 +37,12 @@
       "eslint --fix",
       "prettier --write --ignore-unknown"
     ],
-    "*.md": [
-      "markdownlint --ignore node_modules --fix",
-      "prettier --write"
-    ],
     "*.css": [
       "stylelint --fix",
+      "prettier --write"
+    ],
+    "*.md": [
+      "markdownlint --ignore node_modules --fix",
       "prettier --write"
     ]
   },
