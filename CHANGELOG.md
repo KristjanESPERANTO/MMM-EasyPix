@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.7](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.6...v1.1.7) - 2025-05-15 - Maintenance update
+
+### Changed
+
+- chore: add `husky` to `devDependencies`
+- chore: update devDependencies
+- chore: use `node --run` instead of `npm run` to run scripts
+- chore: review `lint-staged` setup
+- chore: simplify linting setup by removing `stylelint` and `markdownlint`
+
 ## [1.1.6](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.5...v1.1.6) - 2025-04-21 - Maintenance update
 
 ### Changed
