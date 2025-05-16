@@ -8,11 +8,11 @@ Pi 1 users should use static pictures or small sized GIFs.
 
 ## Where your picture files go
 
-Your picture files go in the "pix" folder inside the MMM-EasyPix module folder.
+Your picture files go in the "pix" directory inside the MMM-EasyPix module directory.
 
 ## Installation
 
-Clone this module into your MagicMirror² modules folder:
+Clone this module into your MagicMirror² modules directory:
 
 ```bash
 cd ~/MagicMirror/modules
