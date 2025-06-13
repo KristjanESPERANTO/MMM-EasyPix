@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.8](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.7...v1.1.8) - 2025-06-13 - Maintenance update
+
+### Changed
+
+- chore: add `"type": "module"` to `package.json`
+- chore: drop .mjs files
+- chore: update devDependencies
+- docs: optimize wording "folder -> directory"
+
 ## [1.1.7](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.6...v1.1.7) - 2025-05-15 - Maintenance update
 
 ### Changed
