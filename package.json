@@ -24,6 +24,7 @@
   "contributors": [
     "https://github.com/KristjanESPERANTO/MMM-EasyPix/contributors"
   ],
+  "type": "module",
   "main": "MMM-EasyPix.js",
   "scripts": {
     "lint": "eslint && prettier --check .",
