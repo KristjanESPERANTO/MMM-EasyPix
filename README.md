@@ -21,6 +21,8 @@ git clone https://github.com/KristjanESPERANTO/MMM-EasyPix
 
 ## Configuration
 
+Add the module to the modules array in the `config/config.js` file. Here is an example:
+
 ```js
   {
     module: "MMM-EasyPix",
@@ -31,13 +33,13 @@ git clone https://github.com/KristjanESPERANTO/MMM-EasyPix
       sounds: ["1.mp3", "me2.mp3"],   // mp3 audio file names in quotes separated by commas for Hello-Lucy
       updateInterval: 30 * 60 * 1000, // Updates display (Milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
       animationSpeed: 3000,           // Speed of the update animation. (Milliseconds)
-      }
-    },
+    }
+  },
 ```
 
 ## Update
 
-Go to the module’s directory and pull the latest version from GitHub:
+Go to the module’s directory and pull the latest version:
 
 ```bash
 cd ~/MagicMirror/modules/MMM-EasyPix
