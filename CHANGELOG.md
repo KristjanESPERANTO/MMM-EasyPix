@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.9](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.8...v1.1.9) - 2025-07-26
+
+### Changed
+
+- chore: update devDependencies
+- docs: add section for slideshow functionality options
+- docs: optimize config section
+- refactor: remove `Hello-Lucy` related parts (`Hello-Lucy` is deprecated and no longer maintained)
+- refactor: remove unused method `randomImgLink`
+
 ## [1.1.8](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.7...v1.1.8) - 2025-06-13 - Maintenance update
 
 ### Changed
