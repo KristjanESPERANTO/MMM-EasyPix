@@ -24,16 +24,14 @@ git clone https://github.com/KristjanESPERANTO/MMM-EasyPix
 Add the module to the modules array in the `config/config.js` file. Here is an example:
 
 ```js
-  {
-    module: "MMM-EasyPix",
-    position: "top_center",
-    config: {
-      picName: "moon.gif",            // Enter the picture file name. You can even use a direct internet URL to an image.
-      maxWidth: "75%",                // Size picture precisely. Retains aspect ratio.
-      updateInterval: 30 * 60 * 1000, // Updates display (milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
-      animationSpeed: 3000,           // Speed of the update animation. (milliseconds)
-    }
-  },
+    {
+      module: "MMM-EasyPix",
+      position: "top_center",
+      config: {
+        picName: "moon.gif",  // Enter the picture file name. You can even use a direct internet URL to an image.
+        maxWidth: "75%"       // Size picture precisely. Retains aspect ratio.
+      }
+    },
 ```
 
 ## Update
@@ -47,7 +45,7 @@ git pull
 
 ## How to use it multiple times
 
-- Simply make multiple entries in your config and name a different picture.
+Simply make multiple entries in your config and name a different picture.
 
 ## Looking for slideshow functionality?
 
@@ -98,4 +96,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) f
 
 ## Changelog
 
-All notable changes to this project will be documented in the [CHANGELOG.md](./CHANGELOG.md) file.
+All notable changes to this project will be documented in the [CHANGELOG.md](CHANGELOG.md) file.
