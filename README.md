@@ -30,8 +30,7 @@ Add the module to the modules array in the `config/config.js` file. Here is an e
     config: {
       picName: "moon.gif",            // Enter the picture file name. You can even use a direct internet URL to an image.
       maxWidth: "75%",                // Size picture precisely. Retains aspect ratio.
-      sounds: ["1.mp3", "me2.mp3"],   // mp3 audio file names in quotes separated by commas for Hello-Lucy
-      updateInterval: 30 * 60 * 1000, // Updates display (Milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
+      updateInterval: 30 * 60 * 1000, // Updates display (milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
       animationSpeed: 3000,           // Speed of the update animation. (Milliseconds)
     }
   },
@@ -49,10 +48,6 @@ git pull
 ## How to use it multiple times
 
 - Simply make multiple entries in your config and name a different picture.
-
-## Works with Hello-Lucy
-
-This module works also with [Hello-Lucy](https://github.com/mykle1/Hello-Lucy) voice enhancement (required for sound).
 
 ## Example images
 

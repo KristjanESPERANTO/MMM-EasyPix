@@ -4,8 +4,7 @@ Module.register("MMM-EasyPix", {
   defaults: {
     picName: "face.gif", // .jpg, .gif, .png, etc. (animated gif's too!)
     maxWidth: "100%",
-    sounds: ["1.mp3", "me2.mp3"], // mp3 audio file names in quotes separated by commas
-    updateInterval: 30 * 60 * 1000, //  Updates display (in milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
+    updateInterval: 30 * 60 * 1000, // Updates display (in milliseconds) - Default: 30 minutes
     animationSpeed: 3000 // Speed of the update animation (in milliseconds).
   },
 
@@ -46,36 +45,5 @@ Module.register("MMM-EasyPix", {
       ry = 1;
     }
     document.write(`<img src="${myImages[ry]}" border=0>`);
-  },
-
-  /* Add this function to the modules you want to control with voice.
-     Must be the same as in "sentences" array in MMM-voice.js.
-     Replace audio file with your own greeting.
-  */
-
-  notificationReceived (notification) {
-    if (notification === "HIDE_LUCY") {
-      this.hide(500);
-    } else if (notification === "SHOW_LUCY") {
-      this.show(1000);
-    }
-
-    if (notification === "HELLO_THERE_LUCY") {
-      const sound = new Audio();
-      sound.src = "modules/MMM-EasyPix/hello.mp3";
-      sound.play();
-    }
-
-    /* So you don't hear the same greeting every time:
-       Randomized sound files.
-    */
-    if (notification === "SHOW_LUCY") {
-      const audioFiles = this.config.sounds;
-      const randomFile =
-        audioFiles[Math.floor(Math.random() * audioFiles.length)];
-      const audio = new Audio(randomFile);
-      audio.src = `modules/MMM-EasyPix/sounds/${randomFile}`;
-      audio.play();
-    }
   }
 });
