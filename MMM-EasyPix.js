@@ -35,15 +35,5 @@ Module.register("MMM-EasyPix", {
     image.style.maxWidth = this.config.maxWidth;
     wrapper.appendChild(image);
     return wrapper;
-  },
-
-  randomImgLink () {
-    const myImages = "/modules/MMM-EasyPix/pix/";
-
-    let ry = Math.floor(Math.random() * "/modules/MMM-EasyPix/pix/".length);
-    if (ry === 0) {
-      ry = 1;
-    }
-    document.write(`<img src="${myImages[ry]}" border=0>`);
   }
 });
