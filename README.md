@@ -31,7 +31,7 @@ Add the module to the modules array in the `config/config.js` file. Here is an e
       picName: "moon.gif",            // Enter the picture file name. You can even use a direct internet URL to an image.
       maxWidth: "75%",                // Size picture precisely. Retains aspect ratio.
       updateInterval: 30 * 60 * 1000, // Updates display (milliseconds) - Default: 30 * 60 * 1000 = 30 minutes
-      animationSpeed: 3000,           // Speed of the update animation. (Milliseconds)
+      animationSpeed: 3000,           // Speed of the update animation. (milliseconds)
     }
   },
 ```
@@ -48,6 +48,11 @@ git pull
 ## How to use it multiple times
 
 - Simply make multiple entries in your config and name a different picture.
+
+## Looking for slideshow functionality?
+
+MMM-EasyPix is designed to display a single image and keep things simple. If you're looking for slideshow functionality with multiple images rotating automatically, search for these specialized modules on the [MagicMirror² module list](https://modules.magicmirror.builders/).
+E.g. **MMM-ImageSlideshow** or **MMM-ImagesPhotos** might be what you need.
 
 ## Example images
 
