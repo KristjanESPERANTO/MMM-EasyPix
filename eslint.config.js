@@ -8,7 +8,7 @@ import markdown from "@eslint/markdown";
 import stylistic from "@stylistic/eslint-plugin";
 
 export default defineConfig([
-  {files: ["**/*.css"], languageOptions: {tolerant: true}, plugins: {css}, language: "css/css", extends: ["css/recommended"], rules: {"css/use-baseline": ["error", {available: "newly"}]}},
+  {files: ["**/*.css"], plugins: {css}, language: "css/css", extends: ["css/recommended"]},
   {
     files: ["**/*.js"],
     languageOptions: {
@@ -25,19 +25,13 @@ export default defineConfig([
       "@stylistic/dot-location": ["error", "property"],
       "@stylistic/function-call-argument-newline": ["error", "consistent"],
       "@stylistic/indent": ["error", 2],
-      "@stylistic/multiline-comment-style": "off",
       "@stylistic/object-property-newline": ["error", {allowAllPropertiesOnSameLine: true}],
       "@stylistic/padded-blocks": ["error", "never"],
       "@stylistic/quote-props": ["error", "as-needed"],
-      "capitalized-comments": "off",
-      "import-x/no-unresolved": ["error", {ignore: ["eslint/config", "node_helper", "logger"]}],
-      "max-lines-per-function": ["error", 100],
-      "max-statements": ["error", 25],
       "no-inline-comments": "off",
-      "no-magic-numbers": "off",
+      "no-magic-numbers": ["error", {ignore: [0, 2, 25, 30, 60, 100, 1000]}],
       "one-var": ["error", "never"],
-      "sort-keys": "off",
-      strict: "off"
+      "sort-keys": "off"
     }
   },
   {files: ["**/*.json"], ignores: ["package-lock.json"], plugins: {json}, extends: ["json/recommended"], language: "json/json"},

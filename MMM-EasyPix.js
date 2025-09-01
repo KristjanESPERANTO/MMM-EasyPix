@@ -13,7 +13,7 @@ Module.register("MMM-EasyPix", {
     this.url = "";
 
     setInterval(() => {
-      that.updateDom(that.config.animationSpeed || 0); // use config.animationSpeed or revert to zero
+      that.updateDom(that.config.animationSpeed || 0); // Use config.animationSpeed or revert to zero
     }, this.config.updateInterval);
   },
 
