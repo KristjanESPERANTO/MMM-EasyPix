@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.10](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.9...v1.1.10) - 2025-09-01
+
+### Changed
+
+- chore: add dependabot configuration for GitHub Actions and npm updates
+- chore: reduce ESLint rules
+- chore: update devDependencies
+- docs: simplify configuration example
+
 ## [1.1.9](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.8...v1.1.9) - 2025-07-26
 
 ### Changed
