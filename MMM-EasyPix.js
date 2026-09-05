@@ -9,12 +9,14 @@ Module.register('MMM-EasyPix', {
   },
 
   start() {
-    const that = this
-    this.url = ''
-
-    setInterval(() => {
-      that.updateDom(that.config.animationSpeed || 0) // Use config.animationSpeed or revert to zero
+    this.updateTimer = setInterval(() => {
+      this.updateDom(this.config.animationSpeed || 0) // Use config.animationSpeed or revert to zero
     }, this.config.updateInterval)
+  },
+
+  stop() {
+    clearInterval(this.updateTimer)
+    this.updateTimer = null
   },
 
   getStyles() {
