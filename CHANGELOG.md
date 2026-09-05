@@ -1,9 +1,33 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
-This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.2.0](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.10...v1.2.0) (2026-09-05)
 
+### Added
+
+* add CI workflow for linting, spelling, and unit tests ([cb30766](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/cb30766f9c652902c4ff4c72b246f53b901c3f70))
+* add demo config and script ([3f1a33e](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/3f1a33e4df366d7e105dafed56c9b2bcb1c4cda6))
+
+### Fixed
+
+* clear update timer on stop ([8cdf7d0](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/8cdf7d01a695d818466859d5421c350495b16008))
+* validate configured picture name ([d43518f](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/d43518f50ba9f94775f452618376297881629af3))
+
+### Chores
+
+* add release script for versioning ([2511768](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/2511768d44e1e183596485f37011d4f5760f2372))
+* correct contributors format in package.json ([3e74f8c](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/3e74f8ca1651c9770dd2e93a418bb08a6ccde731))
+* replace husky with simple-git-hooks ([7b6643b](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/7b6643b9c5ecf9d2582e621c350ff86f3c004bcf))
+* update devDependencies ([a2a720d](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/a2a720d0ca232df7bdc2c3b784f14449af4b34c0))
+
+### Code Refactoring
+
+* simplify linter rules and apply new ruleset ([1edd70a](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/1edd70a195ea3600332eb05d7b81b7ba2521cc83))
+
+### Tests
+
+* add unit tests ([7f0257e](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/7f0257e59806b8c13ce882acfdc544d07440e1fe))
 ## [1.1.10](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.9...v1.1.10) - 2025-09-01
 
 ### Changed
