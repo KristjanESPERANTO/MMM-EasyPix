@@ -23,6 +23,7 @@ git clone https://github.com/KristjanESPERANTO/MMM-EasyPix
 
 Add the module to the modules array in the `config/config.js` file. Here is an example:
 
+<!-- prettier-ignore -->
 ```js
     {
       module: "MMM-EasyPix",
