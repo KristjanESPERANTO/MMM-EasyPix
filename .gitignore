@@ -9,3 +9,4 @@ pix/*.*
 !pix/standing-on-hill.jpg
 !pix/tropical-beach.gif
 !pix/world-peace.jpg
+.husky/
