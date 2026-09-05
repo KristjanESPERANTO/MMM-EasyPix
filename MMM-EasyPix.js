@@ -26,12 +26,15 @@ Module.register('MMM-EasyPix', {
   getDom() {
     const wrapper = document.createElement('div')
     const image = document.createElement('img')
+    const picName = typeof this.config.picName === 'string' && this.config.picName
+      ? this.config.picName
+      : this.defaults.picName
 
-    if (this.config.picName.startsWith('http')) {
-      image.src = this.config.picName
+    if (picName.startsWith('http')) {
+      image.src = picName
     }
     else {
-      image.src = `/modules/MMM-EasyPix/pix/${this.config.picName}`
+      image.src = `/modules/MMM-EasyPix/pix/${picName}`
     }
 
     image.className = 'mmm-easypix-photo'
