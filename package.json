@@ -30,6 +30,7 @@
   "type": "module",
   "main": "MMM-EasyPix.js",
   "scripts": {
+    "demo": "cd ../../ && MM_CONFIG_FILE=modules/MMM-EasyPix/demo.config.js node --run start:dev",
     "lint": "eslint && prettier --check .",
     "lint:fix": "eslint --fix && prettier --write .",
     "prepare": "simple-git-hooks || true",
