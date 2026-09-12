@@ -31,11 +31,13 @@ Module.register('MMM-EasyPix', {
       ? this.config.picName
       : this.defaults.picName
 
-    if (picName.startsWith('http')) {
-      // disable cache to update pictures updated under the same file name e.g. from cameras
+   if (picName.startsWith('http')) {
       if (this.config.cacheBuster) {
-        image.src = picName + "?cb=" + new Date().getTime()
-      } else {
+        const url = new URL(picName)
+        url.searchParams.set('cb', Date.now().toString())
+        image.src = url.toString()
+      } 
+      else {
         image.src = picName
       }
     }
