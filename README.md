@@ -31,6 +31,7 @@ Add the module to the modules array in the `config/config.js` file. Here is an e
       config: {
         picName: "moon.gif",  // Enter the picture file name. You can even use a direct internet URL to an image.
         maxWidth: "75%"       // Size picture precisely. Retains aspect ratio.
+        cacheBuster: true // Disable cache to update pictures updated under the same file name e.g. for cameras. Defaults to false.
       }
     },
 ```
