@@ -6,6 +6,7 @@ Module.register('MMM-EasyPix', {
     maxWidth: '100%',
     updateInterval: 30 * 60 * 1000, // Updates display (in milliseconds) - Default: 30 minutes
     animationSpeed: 3000, // Speed of the update animation (in milliseconds).
+    cacheBuster: false // Disable cache to update pictures updated under the same file name e.g. from cameras
   },
 
   start() {
@@ -31,7 +32,12 @@ Module.register('MMM-EasyPix', {
       : this.defaults.picName
 
     if (picName.startsWith('http')) {
-      image.src = picName
+      // disable cache to update pictures updated under the same file name e.g. from cameras
+      if (this.config.cacheBuster) {
+        image.src = picName + "?cb=" + new Date().getTime()
+      } else {
+        image.src = picName
+      }
     }
     else {
       image.src = `/modules/MMM-EasyPix/pix/${picName}`
