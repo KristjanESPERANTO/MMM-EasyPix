@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.2.0...v1.3.0) (2026-09-12)
+
+### Added
+
+* add cacheBuster option for external webcam image URLs ([#8](https://github.com/KristjanESPERANTO/MMM-EasyPix/issues/8)) ([5a15bda](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/5a15bda70754775cadbbf4d01c38994557de875b))
+
+### Chores
+
+* add Prettier config ([9d00229](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/9d00229fa082988b45f25af60283bc202d93788b))
+* update devDependencies ([4432011](https://github.com/KristjanESPERANTO/MMM-EasyPix/commit/4432011a93d1181ad799c3505e0cbd7e0a0d7433))
 ## [1.2.0](https://github.com/KristjanESPERANTO/MMM-EasyPix/compare/v1.1.10...v1.2.0) (2026-09-05)
 
 ### Added
