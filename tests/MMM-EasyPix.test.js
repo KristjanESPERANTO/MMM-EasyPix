@@ -25,6 +25,7 @@ function loadModule({ setInterval: setIntervalFunction = setInterval, clearInter
         registeredModule = moduleDefinition
       },
     },
+    URL,
     setInterval: setIntervalFunction,
   }
 
@@ -55,6 +56,19 @@ test('renders an external picture URL', () => {
   const dom = moduleInstance.getDom()
 
   assert.equal(dom.child.src, 'https://example.com/picture.jpg')
+})
+
+test('adds a cache-busting parameter to external picture URLs', () => {
+  const moduleInstance = createModule({
+    picName: 'https://example.com/picture.jpg?camera=front#preview',
+    cacheBuster: true,
+  })
+  const dom = moduleInstance.getDom()
+  const imageUrl = new URL(dom.child.src)
+
+  assert.equal(imageUrl.searchParams.get('camera'), 'front')
+  assert.match(imageUrl.searchParams.get('_mm_easypix_cb'), /^\d+$/)
+  assert.equal(imageUrl.hash, '#preview')
 })
 
 test('falls back to the default picture for an invalid name', () => {
