@@ -71,6 +71,18 @@ test('adds a cache-busting parameter to external picture URLs', () => {
   assert.equal(imageUrl.hash, '#preview')
 })
 
+test('keeps the original picName when cache-busting a malformed external URL', () => {
+  const moduleInstance = createModule({
+    picName: 'http://[invalid',
+    cacheBuster: true,
+  })
+
+  assert.doesNotThrow(() => {
+    const dom = moduleInstance.getDom()
+    assert.equal(dom.child.src, 'http://[invalid')
+  })
+})
+
 test('falls back to the default picture for an invalid name', () => {
   const moduleInstance = createModule({ picName: null })
   const dom = moduleInstance.getDom()
