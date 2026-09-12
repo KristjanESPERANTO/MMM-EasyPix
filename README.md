@@ -30,10 +30,20 @@ Add the module to the modules array in the `config/config.js` file. Here is an e
       position: "top_center",
       config: {
         picName: "moon.gif",  // Enter the picture file name. You can even use a direct internet URL to an image.
-        maxWidth: "75%"       // Size picture precisely. Retains aspect ratio.
+        maxWidth: "75%",       // Size picture precisely. Retains aspect ratio.
       }
     },
 ```
+
+### Configuration options
+
+| Option           | Default      | Description                                                                                                                                                                                                                                                     |
+| ---------------- | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `picName`        | `face.gif`   | Picture filename from the module's `pix` directory or an external image URL.                                                                                                                                                                                    |
+| `maxWidth`       | `100%`       | Maximum width of the displayed picture. The aspect ratio is retained.                                                                                                                                                                                           |
+| `updateInterval` | `30 minutes` | Interval at which the image is updated.                                                                                                                                                                                                                         |
+| `animationSpeed` | `3000 ms`    | Speed of the update animation.                                                                                                                                                                                                                                  |
+| `cacheBuster`    | `false`      | When enabled, adds a changing query parameter to external image URLs on every update. This bypasses browser and proxy caches, but causes an additional image request on every update. Use it only with image endpoints that accept additional query parameters. |
 
 ## Update
 
